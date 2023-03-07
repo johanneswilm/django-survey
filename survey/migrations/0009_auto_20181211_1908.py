@@ -6,7 +6,6 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [("survey", "0008_translated_name_for_models")]
 
     operations = [

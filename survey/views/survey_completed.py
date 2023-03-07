@@ -5,7 +5,6 @@ from survey.models import Survey
 
 
 class SurveyCompleted(TemplateView):
-
     template_name = "survey/completed.html"
 
     def get_context_data(self, **kwargs):

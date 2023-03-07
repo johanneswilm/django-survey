@@ -8,7 +8,6 @@ from survey.models.question import Question
 
 
 class SurveyCommand(BaseCommand):
-
     requires_system_checks = []
 
     def add_arguments(self, parser):

@@ -9,7 +9,6 @@ HERE = Path(__file__).parent
 
 
 class BaseTest(TestCase):
-
     fixtures = [Path(HERE, "testdump.json")]
 
     def setUp(self):

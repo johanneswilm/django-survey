@@ -12,7 +12,6 @@ HERE = Path(__file__).parent
 
 
 class Configuration:
-
     DEFAULT_PATH = Path(HERE, "default_conf.yaml")
 
     def __init__(self, configuration_file=None):

@@ -10,7 +10,6 @@ from django.conf import settings
 
 
 class TestLocaleNormalization(unittest.TestCase):
-
     LOCALE_PATH = Path("survey", "locale").absolute()
 
     def test_normalization(self):

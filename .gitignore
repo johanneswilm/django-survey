@@ -8,6 +8,8 @@ survey.db
 django_survey_and_report.egg-info/
 survey_test/static/
 venv/
+.direnv/
+.envrc
 .idea/
 .project
 .pydevproject

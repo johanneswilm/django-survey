@@ -4,7 +4,6 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [("survey", "0012_add_display_by_category")]
 
     operations = [

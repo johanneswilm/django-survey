@@ -5,7 +5,6 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [("survey", "0006_add_related_name_for_categories")]
 
     operations = [

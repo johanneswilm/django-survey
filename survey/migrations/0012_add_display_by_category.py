@@ -11,7 +11,6 @@ def convert_bool_to_small_int(apps, _schema_editor):
 
 
 class Migration(migrations.Migration):
-
     dependencies = [("survey", "0011_survey_publish_duration")]
 
     operations = [

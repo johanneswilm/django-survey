@@ -31,7 +31,6 @@ class XelatexNotInstalled(Exception):
 
 
 class Survey2Tex(Survey2X):
-
     ANALYSIS_FUNCTION = []
     PGF_PIE_STY = Path(STATIC, "survey", "sty", "pgf-pie.sty")
     PGF_PLOT_STY = Path(STATIC, "survey", "sty", "pgfplots.sty")

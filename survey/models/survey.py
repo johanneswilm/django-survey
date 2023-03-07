@@ -12,7 +12,6 @@ def in_duration_day():
 
 
 class Survey(models.Model):
-
     ALL_IN_ONE_PAGE = 0
     BY_QUESTION = 1
     BY_CATEGORY = 2

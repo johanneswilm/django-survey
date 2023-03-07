@@ -1,3 +1,3 @@
-from setuptools import setup
+from setuptools import find_packages, setup
 
-setup()
+setup(include_package_data=True, packages=find_packages())

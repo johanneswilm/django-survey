@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=67.5.1", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "django-survey-and-report"
+description = "A django survey app that can export results as CSV or PDF using your native language."
+version = "1.4.7"
+readme = "README.md"
+authors = [
+    {email="pierre.sassoulas@gmail.com", name="Pierre SASSOULAS"}
+]
+license = {text = "AGPL-3.0"}
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Natural Language :: English",
+    "Natural Language :: Russian",
+    "Natural Language :: Spanish",
+    "Natural Language :: French",
+    "Natural Language :: Japanese",
+    "Natural Language :: Dutch",
+    "Natural Language :: Chinese (Traditional)",
+    "Natural Language :: German",
+    "Natural Language :: Indonesian",
+    "Natural Language :: Portuguese",
+    "Natural Language :: Polish",
+    "Topic :: Utilities",
+    "Environment :: Web Environment",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU Affero General Public License v3",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Framework :: Django"
+]
+dynamic = ["dependencies"]
+
+[project.urls]
+repository = "https://github.com/Pierre-Sassoulas/django-survey"
+
+[project.optional-dependencies]
+dev = [
+    "pySankeyBeta~=1.3.0",
+    "django-rosetta",
+    "coverage",
+    "python-coveralls",
+    "coveralls",
+    "colorama",
+    "pylint",
+    "flake8",
+    "pre-commit"
+]
+sankey = [
+    "pySankeyBeta~=1.3.0",
+]

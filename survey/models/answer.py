@@ -17,7 +17,6 @@ LOGGER = logging.getLogger(__name__)
 
 
 class Answer(models.Model):
-
     question = models.ForeignKey(Question, on_delete=models.CASCADE, verbose_name=_("Question"), related_name="answers")
     response = models.ForeignKey(Response, on_delete=models.CASCADE, verbose_name=_("Response"), related_name="answers")
     created = models.DateTimeField(_("Creation date"), auto_now_add=True)

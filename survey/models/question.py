@@ -46,7 +46,6 @@ class SortAnswer:
 
 
 class Question(models.Model):
-
     TEXT = "text"
     SHORT_TEXT = "short-text"
     RADIO = "radio"
@@ -373,7 +372,7 @@ class Question(models.Model):
         """
         choices_list = []
         for choice in self.get_clean_choices():
-            choices_list.append((slugify(choice, allow_unicode=True), choice))
+            choices_list.append((choice, choice))
         choices_tuple = tuple(choices_list)
         return choices_tuple
 

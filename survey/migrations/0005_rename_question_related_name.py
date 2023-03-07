@@ -5,7 +5,6 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [("survey", "0004_polymorphic_answers_to_kiss")]
 
     operations = [
