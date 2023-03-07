@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-01 12:17+0000\n"
+"POT-Creation-Date: 2023-03-07 14:14+0000\n"
 "PO-Revision-Date: 2021-01-23 11:53+0000\n"
 "Last-Translator: b'  <>'\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -88,7 +88,7 @@ msgid "Left blank"
 msgstr "Leeg gelaten"
 
 #: survey/exporter/tex/question2tex_chart.py:111
-#: survey/exporter/tex/question2tex_sankey.py:55
+#: survey/exporter/tex/question2tex_sankey.py:56
 msgid "for the question"
 msgstr "voor de vraag"
 
@@ -100,19 +100,19 @@ msgstr "Geen antwoord op deze vraag."
 msgid "Participant"
 msgstr "Deelnemer"
 
-#: survey/exporter/tex/question2tex_sankey.py:27
+#: survey/exporter/tex/question2tex_sankey.py:28
 msgid "Cannot generate PDF, we need 'pySankeyBeta' to be installed."
 msgstr "Kan geen PDF exporteren. Installeer 'pySankeyBeta' door middel van "
 
-#: survey/exporter/tex/question2tex_sankey.py:55
+#: survey/exporter/tex/question2tex_sankey.py:56
 msgid "left"
 msgstr "links"
 
-#: survey/exporter/tex/question2tex_sankey.py:57
+#: survey/exporter/tex/question2tex_sankey.py:58
 msgid "in relation with the question"
 msgstr "in relatie met de vraag"
 
-#: survey/exporter/tex/question2tex_sankey.py:59
+#: survey/exporter/tex/question2tex_sankey.py:60
 msgid "right"
 msgstr "rechts"
 
@@ -120,73 +120,73 @@ msgstr "rechts"
 msgid "Cannot generate PDF, we need 'xelatex' to be installed."
 msgstr "Kan geen PDF genereren. Installeer 'xelatex' door middel van 'sudo apt-get install texlive-xetex'."
 
-#: survey/exporter/tex/survey2tex.py:80
+#: survey/exporter/tex/survey2tex.py:79
 msgid "We could not render a chart because the type"
 msgstr "We kunnen de grafiek niet maken omdat het type"
 
-#: survey/exporter/tex/survey2tex.py:83
+#: survey/exporter/tex/survey2tex.py:82
 msgid "is not a standard type nor the path to an importable valid Question2Tex child class. Choose between 'raw', 'sankey', 'pie', 'cloud', 'square', 'polar' or 'package.path.MyQuestion2TexCustomClass'"
 msgstr "geen standaard type of niet in het pad naar een importeerbaar geldig Question kind klasse. Kies uit 'raw', 'sankey', 'pie', 'cloud', 'square', 'polar' of 'package.path.MyQuestion2TexCustomClass'"
 
-#: survey/exporter/tex/survey2tex.py:157
+#: survey/exporter/tex/survey2tex.py:156
 msgid "No questions to display in this survey."
 msgstr "Geen vragen van deze survey kunnen getoond worden."
 
-#: survey/exporter/tex/survey2tex.py:187
+#: survey/exporter/tex/survey2tex.py:186
 msgid "Cannot export multiple PDF, choose only one."
 msgstr "Kan geen meerdere PDF bestanden exporteren. Kies er een."
 
-#: survey/exporter/tex/survey2tex.py:196
+#: survey/exporter/tex/survey2tex.py:195
 #, python-format
 msgid "Error during PDF generation: %s"
 msgstr "Fout tijdens het genereren van PDFs: %s"
 
-#: survey/exporter/tex/survey2tex.py:203
+#: survey/exporter/tex/survey2tex.py:202
 msgid "Export to PDF"
 msgstr "Exporteer naar PDF"
 
-#: survey/models/answer.py:21
+#: survey/models/answer.py:20
 msgid "Question"
 msgstr "Vraag"
 
-#: survey/models/answer.py:22
+#: survey/models/answer.py:21
 msgid "Response"
 msgstr "Antwoord"
 
-#: survey/models/answer.py:23 survey/models/response.py:25
+#: survey/models/answer.py:22 survey/models/response.py:25
 msgid "Creation date"
 msgstr "Creatie datum"
 
-#: survey/models/answer.py:24 survey/models/response.py:26
+#: survey/models/answer.py:23 survey/models/response.py:26
 msgid "Update date"
 msgstr "Update datum"
 
-#: survey/models/answer.py:25
+#: survey/models/answer.py:24
 msgid "Content"
 msgstr "Inhoud"
 
-#: survey/models/category.py:10 survey/models/survey.py:26
+#: survey/models/category.py:9 survey/models/survey.py:25
 msgid "Name"
 msgstr "Naam"
 
-#: survey/models/category.py:11 survey/models/question.py:78
+#: survey/models/category.py:10 survey/models/question.py:77
 #: survey/models/response.py:27
 msgid "Survey"
 msgstr "Survey"
 
-#: survey/models/category.py:12
+#: survey/models/category.py:11
 msgid "Display order"
 msgstr "Toon volgorde"
 
-#: survey/models/category.py:13 survey/models/survey.py:27
+#: survey/models/category.py:12 survey/models/survey.py:26
 msgid "Description"
 msgstr "Beschrijving"
 
-#: survey/models/category.py:17
+#: survey/models/category.py:16
 msgid "category"
 msgstr "Categorie"
 
-#: survey/models/category.py:18
+#: survey/models/category.py:17
 msgid "categories"
 msgstr "Categorieen"
 
@@ -198,71 +198,71 @@ msgid ""
 "options for this question ."
 msgstr "De type keuzes voor dit veld zijn 'radio', 'selecteer', 'selecteer meerdere' toegestaan. Geef de waarden in een lijst op en scheidt de waarden met een komma."
 
-#: survey/models/question.py:61
+#: survey/models/question.py:60
 msgid "text (multiple line)"
 msgstr "tekst (meerdere regels)"
 
-#: survey/models/question.py:62
+#: survey/models/question.py:61
 msgid "short text (one line)"
 msgstr "korte tekst (een regel)"
 
-#: survey/models/question.py:63
+#: survey/models/question.py:62
 msgid "radio"
 msgstr "radio"
 
-#: survey/models/question.py:64
+#: survey/models/question.py:63
 msgid "select"
 msgstr "selecteer"
 
-#: survey/models/question.py:65
+#: survey/models/question.py:64
 msgid "Select Multiple"
 msgstr "Selecteer meerdere"
 
-#: survey/models/question.py:66
+#: survey/models/question.py:65
 msgid "Select Image"
 msgstr "Selecteer plaatje"
 
-#: survey/models/question.py:67
+#: survey/models/question.py:66
 msgid "integer"
 msgstr "integer"
 
-#: survey/models/question.py:68
+#: survey/models/question.py:67
 msgid "float"
 msgstr "float / drijvende-kommagetal"
 
-#: survey/models/question.py:69
+#: survey/models/question.py:68
 msgid "date"
 msgstr "datum"
 
-#: survey/models/question.py:72
+#: survey/models/question.py:71
 msgid "Text"
 msgstr "Tekst"
 
-#: survey/models/question.py:73
+#: survey/models/question.py:72
 msgid "Order"
 msgstr "Volgorde"
 
-#: survey/models/question.py:74
+#: survey/models/question.py:73
 msgid "Required"
 msgstr "Verplicht"
 
-#: survey/models/question.py:76
+#: survey/models/question.py:75
 msgid "Category"
 msgstr "Categorie"
 
-#: survey/models/question.py:79
+#: survey/models/question.py:78
 msgid "Type"
 msgstr "Type"
 
-#: survey/models/question.py:80
+#: survey/models/question.py:79
 msgid "Choices"
 msgstr "Keuze"
 
-#: survey/models/question.py:83
+#: survey/models/question.py:82
 msgid "question"
 msgstr "vraag"
 
-#: survey/models/question.py:84
+#: survey/models/question.py:83
 msgid "questions"
 msgstr "vragen"
 
@@ -282,55 +282,55 @@ msgstr "Verzameling van survey antwoorden"
 msgid "Sets of answers to surveys"
 msgstr "Verzmaleing van survey antwoorden"
 
-#: survey/models/survey.py:21
+#: survey/models/survey.py:20
 msgid "By question"
 msgstr "Op vraag"
 
-#: survey/models/survey.py:22
+#: survey/models/survey.py:21
 msgid "By category"
 msgstr "Op categorie"
 
-#: survey/models/survey.py:23
+#: survey/models/survey.py:22
 msgid "All in one page"
 msgstr "Alles op een pagina"
 
-#: survey/models/survey.py:28
+#: survey/models/survey.py:27
 msgid "Users can see it and answer it"
 msgstr "Gebruiker heeft inzage en kan het beantwoorden"
 
-#: survey/models/survey.py:29
+#: survey/models/survey.py:28
 msgid "Only authenticated users can see it and answer it"
 msgstr "Alleen geauthoriseerde gebruikers hebben inzage en kunnen het beantwoorden"
 
-#: survey/models/survey.py:30
+#: survey/models/survey.py:29
 msgid "Users can edit their answers afterwards"
 msgstr "Gebruikers kunnen hun antwoorden na de tijd aanpassen"
 
-#: survey/models/survey.py:32
+#: survey/models/survey.py:31
 msgid "Display method"
 msgstr "Wijze van tonen"
 
-#: survey/models/survey.py:34
+#: survey/models/survey.py:33
 msgid "Template"
 msgstr "Sjabloon"
 
-#: survey/models/survey.py:35
+#: survey/models/survey.py:34
 msgid "Publication date"
 msgstr "Publicatie datum"
 
-#: survey/models/survey.py:36
+#: survey/models/survey.py:35
 msgid "Expiration date"
 msgstr "Verloopdatum"
 
-#: survey/models/survey.py:37
+#: survey/models/survey.py:36
 msgid "Redirect URL"
 msgstr ""
 
-#: survey/models/survey.py:40
+#: survey/models/survey.py:39
 msgid "survey"
 msgstr "survey"
 
-#: survey/models/survey.py:41
+#: survey/models/survey.py:40
 msgid "surveys"
 msgstr "surveys"
 
