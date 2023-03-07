@@ -20,11 +20,14 @@ build/
 dist/
 .tox/
 .vscode/
+csv/category-without-description.csv
 csv/short-survey.csv
 csv/test-management-survey.csv
 csv/test-survey.csv
 csv/test-survey2.csv
+tex/category-without-description.tex
 tex/q9_vs_q9.png
+tex/q20_vs_q20.png
 tex/short-survey.tex
 tex/test-management-survey.tex
 tex/test-survey.tex

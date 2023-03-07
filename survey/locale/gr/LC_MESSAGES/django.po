@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-10 12:17+0000\n"
+"POT-Creation-Date: 2023-03-07 14:14+0000\n"
 "PO-Revision-Date: 2022-04-10 22:53+0000\n"
 "Last-Translator: b'  <>'\n"
 "Language-Team: \n"
@@ -86,7 +86,7 @@ msgid "Left blank"
 msgstr "Έμεινε κενό"
 
 #: survey/exporter/tex/question2tex_chart.py:111
-#: survey/exporter/tex/question2tex_sankey.py:55
+#: survey/exporter/tex/question2tex_sankey.py:56
 msgid "for the question"
 msgstr "για την ερώτηση"
 
@@ -98,19 +98,19 @@ msgstr "Καμία απάντηση για αυτήν την ερώτηση."
 msgid "Participant"
 msgstr "Συμμετέχων"
 
-#: survey/exporter/tex/question2tex_sankey.py:27
+#: survey/exporter/tex/question2tex_sankey.py:28
 msgid "Cannot generate PDF, we need 'pySankeyBeta' to be installed."
 msgstr "Το PDF δεν μπορεί να δημιουργηθεί, χρειαζόμαστε το 'pySankeyBeta' να εγκατασταθεί!"
 
-#: survey/exporter/tex/question2tex_sankey.py:55
+#: survey/exporter/tex/question2tex_sankey.py:56
 msgid "left"
 msgstr "αριστερά"
 
-#: survey/exporter/tex/question2tex_sankey.py:57
+#: survey/exporter/tex/question2tex_sankey.py:58
 msgid "in relation with the question"
 msgstr "σε σχέση με την ερώτηση"
 
-#: survey/exporter/tex/question2tex_sankey.py:59
+#: survey/exporter/tex/question2tex_sankey.py:60
 msgid "right"
 msgstr "δεξιά"
 
@@ -118,73 +118,73 @@ msgstr "δεξιά"
 msgid "Cannot generate PDF, we need 'xelatex' to be installed."
 msgstr "Το PDF δεν μπορεί να δημιουργηθεί, χρειαζόμαστε το 'xelatex' να εγκατασταθεί!"
 
-#: survey/exporter/tex/survey2tex.py:80
+#: survey/exporter/tex/survey2tex.py:79
 msgid "We could not render a chart because the type"
 msgstr "Δεν μπορέσαμε να αποδώσουμε το γράφημα λόγω του τύπου"
 
-#: survey/exporter/tex/survey2tex.py:83
+#: survey/exporter/tex/survey2tex.py:82
 msgid "is not a standard type nor the path to an importable valid Question2Tex child class. Choose between 'raw', 'sankey', 'pie', 'cloud', 'square', 'polar' or 'package.path.MyQuestion2TexCustomClass'"
 msgstr "δεν είναι κανονικός τύπος ούτε η διαδρομή προς μια εισαγόμενη έγκυρη Question2Tex κλάση παιδί. Επιλέξτε μεταξύ 'raw', 'sankey', 'pie', 'cloud', 'square', 'polar' oder 'package.path.MyQuestion2TexCustomClass'"
 
-#: survey/exporter/tex/survey2tex.py:157
+#: survey/exporter/tex/survey2tex.py:156
 msgid "No questions to display in this survey."
 msgstr "Δεν υπάρχουν ερωτήσεις για εμφάνιση σε αυτήν την έρευνα."
 
-#: survey/exporter/tex/survey2tex.py:187
+#: survey/exporter/tex/survey2tex.py:186
 msgid "Cannot export multiple PDF, choose only one."
 msgstr "Δεν είναι δυνατή η εξαγωγή πολλών PDF, επιλέξτε μόνο ένα."
 
-#: survey/exporter/tex/survey2tex.py:196
+#: survey/exporter/tex/survey2tex.py:195
 #, python-format
 msgid "Error during PDF generation: %s"
 msgstr "Σφάλμα κατά τη δημιουργία PDF: %s"
 
-#: survey/exporter/tex/survey2tex.py:203
+#: survey/exporter/tex/survey2tex.py:202
 msgid "Export to PDF"
 msgstr "Εξαγωγή ως PDF"
 
-#: survey/models/answer.py:21
+#: survey/models/answer.py:20
 msgid "Question"
 msgstr "Ερώτηση"
 
-#: survey/models/answer.py:22
+#: survey/models/answer.py:21
 msgid "Response"
 msgstr "Απάντηση"
 
-#: survey/models/answer.py:23 survey/models/response.py:25
+#: survey/models/answer.py:22 survey/models/response.py:25
 msgid "Creation date"
 msgstr "Ημερομηνία δημιουργίας"
 
-#: survey/models/answer.py:24 survey/models/response.py:26
+#: survey/models/answer.py:23 survey/models/response.py:26
 msgid "Update date"
 msgstr "Ημερομηνία ενημέρωσης"
 
-#: survey/models/answer.py:25
+#: survey/models/answer.py:24
 msgid "Content"
 msgstr "Περιεχόμενο"
 
-#: survey/models/category.py:10 survey/models/survey.py:26
+#: survey/models/category.py:9 survey/models/survey.py:25
 msgid "Name"
 msgstr "Όνομα"
 
-#: survey/models/category.py:11 survey/models/question.py:78
+#: survey/models/category.py:10 survey/models/question.py:77
 #: survey/models/response.py:27
 msgid "Survey"
 msgstr "Έρευνα"
 
-#: survey/models/category.py:12
+#: survey/models/category.py:11
 msgid "Display order"
 msgstr "Σειρά εμφάνισης"
 
-#: survey/models/category.py:13 survey/models/survey.py:27
+#: survey/models/category.py:12 survey/models/survey.py:26
 msgid "Description"
 msgstr "Περιγραφή"
 
-#: survey/models/category.py:17
+#: survey/models/category.py:16
 msgid "category"
 msgstr "Κατηγορία"
 
-#: survey/models/category.py:18
+#: survey/models/category.py:17
 msgid "categories"
 msgstr "Κατηγορίες"
 
@@ -200,71 +200,71 @@ msgstr ""
 "'select multiple' παρέχει μια λίστα διαχωρισμένη με κόμματα\n"
 "επιλογές για αυτήν την ερώτηση."
 
-#: survey/models/question.py:61
+#: survey/models/question.py:60
 msgid "text (multiple line)"
 msgstr "κείμενο (πολλαπλών γραμμών)"
 
-#: survey/models/question.py:62
+#: survey/models/question.py:61
 msgid "short text (one line)"
 msgstr "σύντομο κείμενο (μιας γραμμής)"
 
-#: survey/models/question.py:63
+#: survey/models/question.py:62
 msgid "radio"
 msgstr "κουμπί ραδιοφώνου"
 
-#: survey/models/question.py:64
+#: survey/models/question.py:63
 msgid "select"
 msgstr "Επιλέξτε"
 
-#: survey/models/question.py:65
+#: survey/models/question.py:64
 msgid "Select Multiple"
 msgstr "Επιλέξτε Πολλαπλά"
 
-#: survey/models/question.py:66
+#: survey/models/question.py:65
 msgid "Select Image"
 msgstr "Επιλέξτε Εικόνα"
 
-#: survey/models/question.py:67
+#: survey/models/question.py:66
 msgid "integer"
 msgstr "ακέραιος αριθμός"
 
-#: survey/models/question.py:68
+#: survey/models/question.py:67
 msgid "float"
 msgstr "δεκαδικός αριθμός"
 
-#: survey/models/question.py:69
+#: survey/models/question.py:68
 msgid "date"
 msgstr "ημερομηνία"
 
-#: survey/models/question.py:72
+#: survey/models/question.py:71
 msgid "Text"
 msgstr "Κείμενο"
 
-#: survey/models/question.py:73
+#: survey/models/question.py:72
 msgid "Order"
 msgstr "Σειρά"
 
-#: survey/models/question.py:74
+#: survey/models/question.py:73
 msgid "Required"
 msgstr "Υποχρεωτικό"
 
-#: survey/models/question.py:76
+#: survey/models/question.py:75
 msgid "Category"
 msgstr "Κατηγορία"
 
-#: survey/models/question.py:79
+#: survey/models/question.py:78
 msgid "Type"
 msgstr "Τύπος"
 
-#: survey/models/question.py:80
+#: survey/models/question.py:79
 msgid "Choices"
 msgstr "Επιλογές"
 
-#: survey/models/question.py:83
+#: survey/models/question.py:82
 msgid "question"
 msgstr "ερώτηση"
 
-#: survey/models/question.py:84
+#: survey/models/question.py:83
 msgid "questions"
 msgstr "ερωτήσεις"
 
@@ -284,55 +284,55 @@ msgstr "Σύνολο απαντήσεων σε έρευνες"
 msgid "Sets of answers to surveys"
 msgstr "Σύνολα απαντήσεων σε έρευνες"
 
-#: survey/models/survey.py:21
+#: survey/models/survey.py:20
 msgid "By question"
 msgstr "Ανά ερώτηση"
 
-#: survey/models/survey.py:22
+#: survey/models/survey.py:21
 msgid "By category"
 msgstr "Ανά κατηγορία"
 
-#: survey/models/survey.py:23
+#: survey/models/survey.py:22
 msgid "All in one page"
 msgstr "Όλα σε μια σελίδα"
 
-#: survey/models/survey.py:28
+#: survey/models/survey.py:27
 msgid "Users can see it and answer it"
 msgstr "Οι χρήστες μπορούν να το δουν και να απαντήσουν"
 
-#: survey/models/survey.py:29
+#: survey/models/survey.py:28
 msgid "Only authenticated users can see it and answer it"
 msgstr "Μόνο εγκεκριμένοι χρήστες μπορούν να το δουν και να το απαντήσουν"
 
-#: survey/models/survey.py:30
+#: survey/models/survey.py:29
 msgid "Users can edit their answers afterwards"
 msgstr "Οι χρήστες μπορούν να επεξεργαστούν τις απαντήσεις τους στη συνέχεια"
 
-#: survey/models/survey.py:32
+#: survey/models/survey.py:31
 msgid "Display method"
 msgstr "Μέθοδος εμφάνισης"
 
-#: survey/models/survey.py:34
+#: survey/models/survey.py:33
 msgid "Template"
 msgstr "Πρότυπο"
 
-#: survey/models/survey.py:35
+#: survey/models/survey.py:34
 msgid "Publication date"
 msgstr "Ημερομηνία έκδοσης"
 
-#: survey/models/survey.py:36
+#: survey/models/survey.py:35
 msgid "Expiration date"
 msgstr "Ημερομηνία λήξης"
 
-#: survey/models/survey.py:37
+#: survey/models/survey.py:36
 msgid "Redirect URL"
 msgstr "URL ανακατεύθυνσης"
 
-#: survey/models/survey.py:40
+#: survey/models/survey.py:39
 msgid "survey"
 msgstr "έρευνα"
 
-#: survey/models/survey.py:41
+#: survey/models/survey.py:40
 msgid "surveys"
 msgstr "έρευνες"
 
